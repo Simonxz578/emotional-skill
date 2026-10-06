@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Uncalibrated model comparison",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hypotheses": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prior": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "exclusiveMinimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "posterior": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "exclusiveMinimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "supporting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "contradicting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source_quality": {
+            "enum": [
+              "low",
+              "medium",
+              "medium-high",
+              "high"
+            ]
+          },
+          "context": {
+            "type": "object"
+          },
+          "recency": {
+            "type": "string"
+          },
+          "repetition": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "behavioural_cost": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "medium-high",
+              "high"
+            ]
+          },
+          "falsifiers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "update_conditions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "name",
+          "prior",
+          "posterior",
+          "supporting_evidence",
+          "contradicting_evidence",
+          "source_quality",
+          "context",
+          "recency",
+          "repetition",
+          "behavioural_cost",
+          "confidence",
+          "falsifiers",
+          "update_conditions"
+        ]
+      }
+    },
+    "mutually_exclusive_and_exhaustive": {
+      "type": "boolean"
+    },
+    "normalized_scores": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "description": "Only provide a normalized categorical distribution when models are exclusive and exhaustive. Sum to 1; validate arithmetically.",
+      "minItems": 2,
+      "maxItems": 4
+    },
+    "other_explanations_possible": {
+      "const": true
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "question",
+    "hypotheses",
+    "mutually_exclusive_and_exhaustive",
+    "normalized_scores",
+    "other_explanations_possible",
+    "evidence_ids",
+    "limitations"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mutually_exclusive_and_exhaustive": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "normalized_scores": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "normalized_scores": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  ]
+}

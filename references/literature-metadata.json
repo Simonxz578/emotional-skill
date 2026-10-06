@@ -1,0 +1,784 @@
+{
+  "verification_date": "2026-10-06",
+  "method": "Crossref DOI metadata; selected publisher/PubMed scope and metadata checks",
+  "records": [
+    {
+      "doi": "10.1037/0022-3514.63.4.596",
+      "title": "Inclusion of Other in the Self Scale and the structure of interpersonal closeness",
+      "authors": [
+        {
+          "given": "Arthur",
+          "family": "Aron"
+        },
+        {
+          "given": "Elaine N.",
+          "family": "Aron"
+        },
+        {
+          "given": "Danny",
+          "family": "Smollan"
+        }
+      ],
+      "year": 1992,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "63",
+      "issue": "4",
+      "pages": "596-612",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0022-3514.63.4.596"
+    },
+    {
+      "doi": "10.1037/0022-3514.78.2.273",
+      "title": "Couples' shared participation in novel and arousing activities and experienced relationship quality",
+      "authors": [
+        {
+          "given": "Arthur",
+          "family": "Aron"
+        },
+        {
+          "given": "Christina C.",
+          "family": "Norman"
+        },
+        {
+          "given": "Elaine N.",
+          "family": "Aron"
+        },
+        {
+          "given": "Colin",
+          "family": "McKenna"
+        },
+        {
+          "given": "Richard E.",
+          "family": "Heyman"
+        }
+      ],
+      "year": 2000,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "78",
+      "issue": "2",
+      "pages": "273-284",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0022-3514.78.2.273"
+    },
+    {
+      "doi": "10.1037/a0019205",
+      "title": "From a distance: Implications of spontaneous self-distancing for adaptive self-reflection",
+      "authors": [
+        {
+          "given": "Özlem",
+          "family": "Ayduk"
+        },
+        {
+          "given": "Ethan",
+          "family": "Kross"
+        }
+      ],
+      "year": 2010,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "98",
+      "issue": "5",
+      "pages": "809-829",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2Fa0019205"
+    },
+    {
+      "doi": "10.1016/j.neunet.2009.12.007",
+      "title": "Of bits and wows: A Bayesian theory of surprise with applications to attention",
+      "authors": [
+        {
+          "given": "Pierre",
+          "family": "Baldi"
+        },
+        {
+          "given": "Laurent",
+          "family": "Itti"
+        }
+      ],
+      "year": 2010,
+      "journal": "Neural Networks",
+      "volume": "23",
+      "issue": "5",
+      "pages": "649-666",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1016%2Fj.neunet.2009.12.007"
+    },
+    {
+      "doi": "10.1037/a0018186",
+      "title": "Creating good relationships: Responsiveness, relationship quality, and interpersonal goals",
+      "authors": [
+        {
+          "given": "Amy",
+          "family": "Canevello"
+        },
+        {
+          "given": "Jennifer",
+          "family": "Crocker"
+        }
+      ],
+      "year": 2010,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "99",
+      "issue": "1",
+      "pages": "78-106",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2Fa0018186"
+    },
+    {
+      "doi": "10.1037/a0013965",
+      "title": "Anger is an approach-related affect: Evidence and implications",
+      "authors": [
+        {
+          "given": "Charles S.",
+          "family": "Carver"
+        },
+        {
+          "given": "Eddie",
+          "family": "Harmon-Jones"
+        }
+      ],
+      "year": 2009,
+      "journal": "Psychological Bulletin",
+      "volume": "135",
+      "issue": "2",
+      "pages": "183-204",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2Fa0013965"
+    },
+    {
+      "doi": "10.1007/s11229-018-01932-w",
+      "title": "First principles in the life sciences: the free-energy principle, organicism, and mechanism",
+      "authors": [
+        {
+          "given": "Matteo",
+          "family": "Colombo"
+        },
+        {
+          "given": "Cory",
+          "family": "Wright"
+        }
+      ],
+      "year": 2021,
+      "journal": "Synthese",
+      "volume": "198",
+      "issue": "S14",
+      "pages": "3463-3488",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1007%2Fs11229-018-01932-w"
+    },
+    {
+      "doi": "10.1037/0033-295X.114.4.864",
+      "title": "On seeing human: A three-factor theory of anthropomorphism",
+      "authors": [
+        {
+          "given": "Nicholas",
+          "family": "Epley"
+        },
+        {
+          "given": "Adam",
+          "family": "Waytz"
+        },
+        {
+          "given": "John T.",
+          "family": "Cacioppo"
+        }
+      ],
+      "year": 2007,
+      "journal": "Psychological Review",
+      "volume": "114",
+      "issue": "4",
+      "pages": "864-886",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0033-295X.114.4.864"
+    },
+    {
+      "doi": "10.1016/j.cpr.2015.07.002",
+      "title": "Dyadic coping and relationship satisfaction: A meta-analysis",
+      "authors": [
+        {
+          "given": "Mariana K.",
+          "family": "Falconier"
+        },
+        {
+          "given": "Jeffrey B.",
+          "family": "Jackson"
+        },
+        {
+          "given": "Peter",
+          "family": "Hilpert"
+        },
+        {
+          "given": "Guy",
+          "family": "Bodenmann"
+        }
+      ],
+      "year": 2015,
+      "journal": "Clinical Psychology Review",
+      "volume": "42",
+      "issue": null,
+      "pages": "28-46",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1016%2Fj.cpr.2015.07.002"
+    },
+    {
+      "doi": "10.1037/a0016961",
+      "title": "Relationship influences on exploration in adulthood: The characteristics and function of a secure base",
+      "authors": [
+        {
+          "given": "Brooke C.",
+          "family": "Feeney"
+        },
+        {
+          "given": "Roxanne L.",
+          "family": "Thrush"
+        }
+      ],
+      "year": 2010,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "98",
+      "issue": "1",
+      "pages": "57-76",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2Fa0016961"
+    },
+    {
+      "doi": "10.1038/s41562-019-0590-x",
+      "title": "Resolving uncertainty in a social world",
+      "authors": [
+        {
+          "given": "Oriel",
+          "family": "FeldmanHall"
+        },
+        {
+          "given": "Amitai",
+          "family": "Shenhav"
+        }
+      ],
+      "year": 2019,
+      "journal": "Nature Human Behaviour",
+      "volume": "3",
+      "issue": "5",
+      "pages": "426-435",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1038%2Fs41562-019-0590-x"
+    },
+    {
+      "doi": "10.1038/nrn2787-c1",
+      "title": "A neurocentric approach to Bayesian inference",
+      "authors": [
+        {
+          "given": "Christopher D.",
+          "family": "Fiorillo"
+        }
+      ],
+      "year": 2010,
+      "journal": "Nature Reviews Neuroscience",
+      "volume": "11",
+      "issue": "8",
+      "pages": "605-605",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1038%2Fnrn2787-c1"
+    },
+    {
+      "doi": "10.1037/0022-3514.80.6.1011",
+      "title": "Toward a structure- and process-integrated view of personality: Traits as density distributions of states",
+      "authors": [
+        {
+          "given": "William",
+          "family": "Fleeson"
+        }
+      ],
+      "year": 2001,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "80",
+      "issue": "6",
+      "pages": "1011-1027",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0022-3514.80.6.1011"
+    },
+    {
+      "doi": "10.1016/j.jrp.2014.10.009",
+      "title": "Whole Trait Theory",
+      "authors": [
+        {
+          "given": "William",
+          "family": "Fleeson"
+        },
+        {
+          "given": "Eranda",
+          "family": "Jayawickreme"
+        }
+      ],
+      "year": 2015,
+      "journal": "Journal of Research in Personality",
+      "volume": "56",
+      "issue": null,
+      "pages": "82-92",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1016%2Fj.jrp.2014.10.009"
+    },
+    {
+      "doi": "10.1038/nrn2787",
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors": [
+        {
+          "given": "Karl",
+          "family": "Friston"
+        }
+      ],
+      "year": 2010,
+      "journal": "Nature Reviews Neuroscience",
+      "volume": "11",
+      "issue": "2",
+      "pages": "127-138",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1038%2Fnrn2787"
+    },
+    {
+      "doi": "10.1037/pspi0000115",
+      "title": "The ebbs and flows of attachment: Within-person variation in attachment undermine secure individuals’ relationship wellbeing across time",
+      "authors": [
+        {
+          "given": "Yuthika U.",
+          "family": "Girme"
+        },
+        {
+          "given": "Christopher R.",
+          "family": "Agnew"
+        },
+        {
+          "given": "Laura E.",
+          "family": "VanderDrift"
+        },
+        {
+          "given": "S. Marie",
+          "family": "Harvey"
+        },
+        {
+          "given": "W. Steven",
+          "family": "Rholes"
+        },
+        {
+          "given": "Jeffry A.",
+          "family": "Simpson"
+        }
+      ],
+      "year": 2018,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "114",
+      "issue": "3",
+      "pages": "397-421",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2Fpspi0000115"
+    },
+    {
+      "doi": "10.1016/j.tics.2016.08.005",
+      "title": "Pragmatic Language Interpretation as Probabilistic Inference",
+      "authors": [
+        {
+          "given": "Noah D.",
+          "family": "Goodman"
+        },
+        {
+          "given": "Michael C.",
+          "family": "Frank"
+        }
+      ],
+      "year": 2016,
+      "journal": "Trends in Cognitive Sciences",
+      "volume": "20",
+      "issue": "11",
+      "pages": "818-829",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1016%2Fj.tics.2016.08.005"
+    },
+    {
+      "doi": "10.1002/wcs.80",
+      "title": "Bayesian learning theory applied to human cognition",
+      "authors": [
+        {
+          "given": "Robert A.",
+          "family": "Jacobs"
+        },
+        {
+          "given": "John K.",
+          "family": "Kruschke"
+        }
+      ],
+      "year": 2011,
+      "journal": "WIREs Cognitive Science",
+      "volume": "2",
+      "issue": "1",
+      "pages": "8-21",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1002%2Fwcs.80"
+    },
+    {
+      "doi": "10.1103/PhysRev.106.620",
+      "title": "Information Theory and Statistical Mechanics",
+      "authors": [
+        {
+          "given": "E. T.",
+          "family": "Jaynes"
+        }
+      ],
+      "year": 1957,
+      "journal": "Physical Review",
+      "volume": "106",
+      "issue": "4",
+      "pages": "620-630",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1103%2FPhysRev.106.620"
+    },
+    {
+      "doi": "10.1103/PhysRev.108.171",
+      "title": "Information Theory and Statistical Mechanics. II",
+      "authors": [
+        {
+          "given": "E. T.",
+          "family": "Jaynes"
+        }
+      ],
+      "year": 1957,
+      "journal": "Physical Review",
+      "volume": "108",
+      "issue": "2",
+      "pages": "171-190",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1103%2FPhysRev.108.171"
+    },
+    {
+      "doi": "10.1016/j.tins.2004.10.007",
+      "title": "The Bayesian brain: the role of uncertainty in neural coding and computation",
+      "authors": [
+        {
+          "given": "David C.",
+          "family": "Knill"
+        },
+        {
+          "given": "Alexandre",
+          "family": "Pouget"
+        }
+      ],
+      "year": 2004,
+      "journal": "Trends in Neurosciences",
+      "volume": "27",
+      "issue": "12",
+      "pages": "712-719",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1016%2Fj.tins.2004.10.007"
+    },
+    {
+      "doi": "10.3389/fpsyg.2014.00452",
+      "title": "An enactive and dynamical systems theory account of dyadic relationships",
+      "authors": [
+        {
+          "given": "Miriam",
+          "family": "Kyselo"
+        },
+        {
+          "given": "Wolfgang",
+          "family": "Tschacher"
+        }
+      ],
+      "year": 2014,
+      "journal": "Frontiers in Psychology",
+      "volume": "5",
+      "issue": null,
+      "pages": null,
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.3389%2Ffpsyg.2014.00452",
+      "article_number": "452"
+    },
+    {
+      "doi": "10.1037/0022-3514.74.5.1238",
+      "title": "Intimacy as an interpersonal process: The importance of self-disclosure, partner disclosure, and perceived partner responsiveness in interpersonal exchanges",
+      "authors": [
+        {
+          "given": "Jean-Philippe",
+          "family": "Laurenceau"
+        },
+        {
+          "given": "Lisa Feldman",
+          "family": "Barrett"
+        },
+        {
+          "given": "Paula R.",
+          "family": "Pietromonaco"
+        }
+      ],
+      "year": 1998,
+      "journal": "Journal of Personality and Social Psychology",
+      "volume": "74",
+      "issue": "5",
+      "pages": "1238-1251",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0022-3514.74.5.1238"
+    },
+    {
+      "doi": "10.1111/1475-6811.00035",
+      "title": "Commitment and its theorized determinants: A meta–analysis of the Investment Model",
+      "authors": [
+        {
+          "given": "Benjamin",
+          "family": "Le"
+        },
+        {
+          "given": "Christopher R.",
+          "family": "Agnew"
+        }
+      ],
+      "year": 2003,
+      "journal": "Personal Relationships",
+      "volume": "10",
+      "issue": "1",
+      "pages": "37-57",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1111%2F1475-6811.00035"
+    },
+    {
+      "doi": "10.1177/0963721413475622",
+      "title": "Narrative Identity",
+      "authors": [
+        {
+          "given": "Dan P.",
+          "family": "McAdams"
+        },
+        {
+          "given": "Kate C.",
+          "family": "McLean"
+        }
+      ],
+      "year": 2013,
+      "journal": "Current Directions in Psychological Science",
+      "volume": "22",
+      "issue": "3",
+      "pages": "233-238",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1177%2F0963721413475622"
+    },
+    {
+      "doi": "10.1177/1088868307301034",
+      "title": "Selves Creating Stories Creating Selves: A Process Model of Self-Development",
+      "authors": [
+        {
+          "given": "Kate C.",
+          "family": "McLean"
+        },
+        {
+          "given": "Monisha",
+          "family": "Pasupathi"
+        },
+        {
+          "given": "Jennifer L.",
+          "family": "Pals"
+        }
+      ],
+      "year": 2007,
+      "journal": "Personality and Social Psychology Review",
+      "volume": "11",
+      "issue": "3",
+      "pages": "262-278",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1177%2F1088868307301034"
+    },
+    {
+      "doi": "10.1037/emo0000703",
+      "title": "Emotion regulation",
+      "authors": [
+        {
+          "given": "Kateri",
+          "family": "McRae"
+        },
+        {
+          "given": "James J.",
+          "family": "Gross"
+        }
+      ],
+      "year": 2020,
+      "journal": "Emotion",
+      "volume": "20",
+      "issue": "1",
+      "pages": "1-9",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2Femo0000703"
+    },
+    {
+      "doi": "10.1037/0033-295X.102.2.246",
+      "title": "A cognitive-affective system theory of personality: Reconceptualizing situations, dispositions, dynamics, and invariance in personality structure",
+      "authors": [
+        {
+          "given": "Walter",
+          "family": "Mischel"
+        },
+        {
+          "given": "Yuichi",
+          "family": "Shoda"
+        }
+      ],
+      "year": 1995,
+      "journal": "Psychological Review",
+      "volume": "102",
+      "issue": "2",
+      "pages": "246-268",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0033-295X.102.2.246"
+    },
+    {
+      "doi": "10.1111/tops.12371",
+      "title": "Computational Models of Emotion Inference in Theory of Mind: A Review and Roadmap",
+      "authors": [
+        {
+          "given": "Desmond C.",
+          "family": "Ong"
+        },
+        {
+          "given": "Jamil",
+          "family": "Zaki"
+        },
+        {
+          "given": "Noah D.",
+          "family": "Goodman"
+        }
+      ],
+      "year": 2019,
+      "journal": "Topics in Cognitive Science",
+      "volume": "11",
+      "issue": "2",
+      "pages": "338-357",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1111%2Ftops.12371"
+    },
+    {
+      "doi": "10.1111/1467-8624.00509",
+      "title": "Co–Rumination in the Friendships of Girls and Boys",
+      "authors": [
+        {
+          "given": "Amanda J",
+          "family": "Rose"
+        }
+      ],
+      "year": 2002,
+      "journal": "Child Development",
+      "volume": "73",
+      "issue": "6",
+      "pages": "1830-1843",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1111%2F1467-8624.00509"
+    },
+    {
+      "doi": "10.1177/0956797614532657",
+      "title": "Pre-crastination: Hastening subgoal completion at the expense of extra physical effort",
+      "authors": [
+        {
+          "given": "David A.",
+          "family": "Rosenbaum"
+        },
+        {
+          "given": "Lanyun",
+          "family": "Gong"
+        },
+        {
+          "given": "Cory Adam",
+          "family": "Potts"
+        }
+      ],
+      "year": 2014,
+      "journal": "Psychological Science",
+      "volume": "25",
+      "issue": "7",
+      "pages": "1487-1496",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1177%2F0956797614532657"
+    },
+    {
+      "doi": "10.1037/0003-066X.55.1.68",
+      "title": "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being",
+      "authors": [
+        {
+          "given": "Richard M.",
+          "family": "Ryan"
+        },
+        {
+          "given": "Edward L.",
+          "family": "Deci"
+        }
+      ],
+      "year": 2000,
+      "journal": "American Psychologist",
+      "volume": "55",
+      "issue": "1",
+      "pages": "68-78",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1037%2F0003-066X.55.1.68"
+    },
+    {
+      "doi": "10.3390/e20090706",
+      "title": "Information Theory and Cognition: A Review",
+      "authors": [
+        {
+          "given": "Khalid",
+          "family": "Sayood"
+        }
+      ],
+      "year": 2018,
+      "journal": "Entropy",
+      "volume": "20",
+      "issue": "9",
+      "pages": null,
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.3390%2Fe20090706",
+      "article_number": "706"
+    },
+    {
+      "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+      "title": "A Mathematical Theory of Communication",
+      "authors": [
+        {
+          "given": "C. E.",
+          "family": "Shannon"
+        }
+      ],
+      "year": 1948,
+      "journal": "Bell System Technical Journal",
+      "volume": "27",
+      "issue": "3",
+      "pages": "379-423",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1002%2Fj.1538-7305.1948.tb01338.x"
+    },
+    {
+      "doi": "10.1002/j.1538-7305.1948.tb00917.x",
+      "title": "A Mathematical Theory of Communication",
+      "authors": [
+        {
+          "given": "C. E.",
+          "family": "Shannon"
+        }
+      ],
+      "year": 1948,
+      "journal": "Bell System Technical Journal",
+      "volume": "27",
+      "issue": "4",
+      "pages": "623-656",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1002%2Fj.1538-7305.1948.tb00917.x"
+    },
+    {
+      "doi": "10.1080/09515089.2016.1200024",
+      "title": "A problem of scope for the free energy principle as a theory of cognition",
+      "authors": [
+        {
+          "given": "Andrew",
+          "family": "Sims"
+        }
+      ],
+      "year": 2016,
+      "journal": "Philosophical Psychology",
+      "volume": "29",
+      "issue": "7",
+      "pages": "967-980",
+      "verified_at": "2026-10-06",
+      "verification_source": "https://api.crossref.org/works/10.1080%2F09515089.2016.1200024"
+    }
+  ]
+}

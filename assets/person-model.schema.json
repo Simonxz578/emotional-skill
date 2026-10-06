@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private dynamic person model",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "person_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stable_traits": {
+      "type": "object"
+    },
+    "contextual_modes": {
+      "type": "object"
+    },
+    "current_state": {
+      "type": "object"
+    },
+    "active_goals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "communication_policy": {
+      "type": "object"
+    },
+    "developmental_trajectory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "experience": {
+            "type": "string",
+            "minLength": 1
+          },
+          "appraisal": {
+            "type": "string",
+            "minLength": 1
+          },
+          "self_model_update": {
+            "type": "string",
+            "minLength": 1
+          },
+          "policy_update": {
+            "type": "string",
+            "minLength": 1
+          },
+          "behavioural_verification": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "experience",
+          "appraisal",
+          "self_model_update",
+          "policy_update",
+          "behavioural_verification"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "narrative_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "relationship_baselines": {
+      "type": "object"
+    },
+    "switching_rules": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prior": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "exclusiveMinimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "posterior": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "exclusiveMinimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "supporting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "contradicting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source_quality": {
+            "enum": [
+              "low",
+              "medium",
+              "medium-high",
+              "high"
+            ]
+          },
+          "context": {
+            "type": "object"
+          },
+          "recency": {
+            "type": "string"
+          },
+          "repetition": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "behavioural_cost": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "medium-high",
+              "high"
+            ]
+          },
+          "falsifiers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "update_conditions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "name",
+          "prior",
+          "posterior",
+          "supporting_evidence",
+          "contradicting_evidence",
+          "source_quality",
+          "context",
+          "recency",
+          "repetition",
+          "behavioural_cost",
+          "confidence",
+          "falsifiers",
+          "update_conditions"
+        ]
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "person_id",
+    "stable_traits",
+    "contextual_modes",
+    "current_state",
+    "active_goals",
+    "communication_policy",
+    "developmental_trajectory",
+    "values",
+    "narrative_patterns",
+    "relationship_baselines",
+    "switching_rules",
+    "hypotheses",
+    "last_updated"
+  ]
+}

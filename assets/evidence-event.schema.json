@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local evidence event",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "observer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "person_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "source_type": {
+      "enum": [
+        "self_report",
+        "direct_message",
+        "observed_behavior",
+        "third_party",
+        "symbolic"
+      ]
+    },
+    "content_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": "object"
+    },
+    "relationship_stage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimensions_impacted": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "warmth",
+          "comfort",
+          "trust",
+          "admiration",
+          "specialness",
+          "attraction",
+          "romantic_attraction",
+          "romantic_salience",
+          "vulnerability",
+          "dependency",
+          "reciprocity",
+          "exclusivity",
+          "commitment",
+          "future_integration",
+          "opportunity_cost",
+          "repair_motivation",
+          "autonomy_support",
+          "secure_base_function",
+          "self_expansion"
+        ]
+      }
+    },
+    "directness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reliability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "repetition": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "behavioural_cost": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "baseline_specificity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "context_relevance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "temporal_relevance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "diagnosticity": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "competing_interpretations": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "disconfirming_interpretation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "episode_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimension": {
+      "enum": [
+        "warmth",
+        "comfort",
+        "trust",
+        "admiration",
+        "specialness",
+        "attraction",
+        "romantic_attraction",
+        "romantic_salience",
+        "vulnerability",
+        "dependency",
+        "reciprocity",
+        "exclusivity",
+        "commitment",
+        "future_integration",
+        "opportunity_cost",
+        "repair_motivation",
+        "autonomy_support",
+        "secure_base_function",
+        "self_expansion"
+      ]
+    },
+    "direction": {
+      "enum": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "event_id",
+    "timestamp",
+    "observer",
+    "person_ids",
+    "source_type",
+    "content_summary",
+    "context",
+    "relationship_stage",
+    "dimensions_impacted",
+    "directness",
+    "reliability",
+    "repetition",
+    "behavioural_cost",
+    "baseline_specificity",
+    "context_relevance",
+    "temporal_relevance",
+    "diagnosticity",
+    "competing_interpretations",
+    "disconfirming_interpretation",
+    "episode_id",
+    "context_id",
+    "dimension",
+    "direction",
+    "weight",
+    "notes"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "source_type": {
+            "const": "symbolic"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "weight": {
+            "const": 0
+          }
+        }
+      }
+    }
+  ]
+}

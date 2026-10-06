@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private coupled relationship model",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "person_a": {
+      "type": "string",
+      "minLength": 1
+    },
+    "person_b": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "warmth": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "comfort": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "trust": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "admiration": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "specialness": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "attraction": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "romantic_attraction": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "romantic_salience": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "vulnerability": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "dependency": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "reciprocity": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "exclusivity": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "commitment": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "future_integration": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "opportunity_cost": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "repair_motivation": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "autonomy_support": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "secure_base_function": {
+          "$ref": "#/$defs/dimensionAssessment"
+        },
+        "self_expansion": {
+          "$ref": "#/$defs/dimensionAssessment"
+        }
+      },
+      "required": [
+        "warmth",
+        "comfort",
+        "trust",
+        "admiration",
+        "specialness",
+        "attraction",
+        "romantic_attraction",
+        "romantic_salience",
+        "vulnerability",
+        "dependency",
+        "reciprocity",
+        "exclusivity",
+        "commitment",
+        "future_integration",
+        "opportunity_cost",
+        "repair_motivation",
+        "autonomy_support",
+        "secure_base_function",
+        "self_expansion"
+      ]
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "competing_models": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "support": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "counterevidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "falsifiers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "medium-high",
+              "high"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "support",
+          "counterevidence",
+          "falsifiers",
+          "confidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "feedback_loops": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "disambiguating_future_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "person_a",
+    "person_b",
+    "dimensions",
+    "events",
+    "competing_models",
+    "feedback_loops",
+    "open_questions",
+    "disambiguating_future_evidence",
+    "last_updated"
+  ],
+  "$defs": {
+    "dimensionAssessment": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "assessment": {
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "mixed"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "low",
+            "medium",
+            "medium-high",
+            "high"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "counterevidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "direction": {
+          "enum": [
+            "increasing",
+            "decreasing",
+            "stable",
+            "unknown"
+          ]
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "assessment",
+        "confidence",
+        "evidence_ids",
+        "counterevidence_ids",
+        "direction",
+        "unknowns"
+      ]
+    }
+  }
+}
